@@ -87,7 +87,7 @@ body {
 .balloon-4 {
   background-color: rgba(53, 55, 75, 0.7);
   left: 170px;
-  top: 50px;
+  top: 20px;
 }
 .balloon-5 {
   background-color: rgba(0, 0, 0, 0.7);
@@ -97,7 +97,7 @@ body {
 .balloon-6 {
   background-color: rgba(40, 42, 58, 0.7);
   left: 290px;
-  top: 50px;
+  top: 20px;
 }
 
 .balloon-1::before,
