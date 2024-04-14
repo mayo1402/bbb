@@ -3,7 +3,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #239ac2;
+  background-color: #f7579f;
 }
 
 .birthdayCard {
@@ -17,13 +17,13 @@ body {
 }
 
 .birthdayCard:hover {
-  transform: perspective(2500px) rotate(10deg);
+  transform: perspective(2500px) rotate(-10deg);
   box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2),
     0 10px 100px rgba(0, 0, 0, 0.5);
 }
 
 .birthdayCard:hover .cardFront {
-  transform: rotateY(160deg);
+  transform: rotateY(-160deg);
 }
 
 .birthdayCard:hover .happy {
