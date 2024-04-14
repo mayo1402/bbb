@@ -59,7 +59,10 @@ body {
 .balloon-3,
 .balloon-4,
 .balloon-5,
-.balloon-6 {
+.balloon-6,
+.balloon-7,
+.balloon-8,
+.balloon-9{
   position: absolute;
   width: 100px;
   height: 95px;
@@ -99,13 +102,31 @@ body {
   left: 290px;
   top: 20px;
 }
+.balloon-7 {
+  background-color: rgba(100, 32, 170, 0.7);
+  left: -10px;
+  top: 50px;
+}
+.balloon-8 {
+  background-color: rgba(100, 32, 170, 0.7);
+  left: -10px;
+  top: 50px;
+}
+.balloon-9 {
+  background-color: rgba(100, 32, 170, 0.7);
+  left: -10px;
+  top: 50px;
+}
 
 .balloon-1::before,
 .balloon-2::before,
 .balloon-3::before,
 .balloon-4::before,
 .balloon-5::before,
-.balloon-6::before {
+.balloon-6::before,
+.balloon-7::before,
+.balloon-8::before,
+.balloon-9::before {
   content: "";
   position: absolute;
   width: 1px;
@@ -120,7 +141,10 @@ body {
 .balloon-3::after,
 .balloon-4::after,
 .balloon-5::after,
-.balloon-6::after {
+.balloon-6::after,
+.balloon-7::after,
+.balloon-8::after,
+.balloon-9::after {
   content: "";
   position: absolute;
   border-right: 7px solid transparent;
@@ -152,6 +176,19 @@ body {
 .balloon-6::after {
   border-bottom: 10px solid #13a9bd;
 }
+
+.balloon-7::after {
+  border-bottom: 10px solid #ff3e6b;
+}
+
+.balloon-8::after {
+  border-bottom: 10px solid #ff3e6b;
+}
+
+.balloon-9::after {
+  border-bottom: 10px solid #ff3e6b;
+}
+
 
 .cardInside {
   position: absolute;
